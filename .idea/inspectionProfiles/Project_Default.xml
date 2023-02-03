@@ -1,0 +1,140 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="101">
+            <item index="0" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="1" class="java.lang.String" itemvalue="blosc" />
+            <item index="2" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="3" class="java.lang.String" itemvalue="jupyter" />
+            <item index="4" class="java.lang.String" itemvalue="torch" />
+            <item index="5" class="java.lang.String" itemvalue="numpy" />
+            <item index="6" class="java.lang.String" itemvalue="SimpleITK" />
+            <item index="7" class="java.lang.String" itemvalue="diskcache" />
+            <item index="8" class="java.lang.String" itemvalue="Theano" />
+            <item index="9" class="java.lang.String" itemvalue="Lasagne==0.2" />
+            <item index="10" class="java.lang.String" itemvalue="blinker" />
+            <item index="11" class="java.lang.String" itemvalue="six" />
+            <item index="12" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="13" class="java.lang.String" itemvalue="Flask-WTF" />
+            <item index="14" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="15" class="java.lang.String" itemvalue="cffi" />
+            <item index="16" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="17" class="java.lang.String" itemvalue="pycparser" />
+            <item index="18" class="java.lang.String" itemvalue="click" />
+            <item index="19" class="java.lang.String" itemvalue="Flask-SQLAlchemy" />
+            <item index="20" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="21" class="java.lang.String" itemvalue="Flask-Login" />
+            <item index="22" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="23" class="java.lang.String" itemvalue="WTForms" />
+            <item index="24" class="java.lang.String" itemvalue="Flask-Mail" />
+            <item index="25" class="java.lang.String" itemvalue="certifi" />
+            <item index="26" class="java.lang.String" itemvalue="Flask-Bcrypt" />
+            <item index="27" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="28" class="java.lang.String" itemvalue="Flask" />
+            <item index="29" class="java.lang.String" itemvalue="Pillow" />
+            <item index="30" class="java.lang.String" itemvalue="torchvision" />
+            <item index="31" class="java.lang.String" itemvalue="seaborn" />
+            <item index="32" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="33" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="34" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="35" class="java.lang.String" itemvalue="keras" />
+            <item index="36" class="java.lang.String" itemvalue="pandas" />
+            <item index="37" class="java.lang.String" itemvalue="fake_useragent" />
+            <item index="38" class="java.lang.String" itemvalue="pyperclip" />
+            <item index="39" class="java.lang.String" itemvalue="pytesseract" />
+            <item index="40" class="java.lang.String" itemvalue="xlwt" />
+            <item index="41" class="java.lang.String" itemvalue="pyautogui" />
+            <item index="42" class="java.lang.String" itemvalue="xlrd" />
+            <item index="43" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="44" class="java.lang.String" itemvalue="Django" />
+            <item index="45" class="java.lang.String" itemvalue="asgiref" />
+            <item index="46" class="java.lang.String" itemvalue="Automat" />
+            <item index="47" class="java.lang.String" itemvalue="async-timeout" />
+            <item index="48" class="java.lang.String" itemvalue="dash-renderer" />
+            <item index="49" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="50" class="java.lang.String" itemvalue="dpd-components" />
+            <item index="51" class="java.lang.String" itemvalue="Click" />
+            <item index="52" class="java.lang.String" itemvalue="constantly" />
+            <item index="53" class="java.lang.String" itemvalue="redis" />
+            <item index="54" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="55" class="java.lang.String" itemvalue="txaio" />
+            <item index="56" class="java.lang.String" itemvalue="daphne" />
+            <item index="57" class="java.lang.String" itemvalue="hyperlink" />
+            <item index="58" class="java.lang.String" itemvalue="dash-html-components" />
+            <item index="59" class="java.lang.String" itemvalue="cryptography" />
+            <item index="60" class="java.lang.String" itemvalue="PyHamcrest" />
+            <item index="61" class="java.lang.String" itemvalue="zope.interface" />
+            <item index="62" class="java.lang.String" itemvalue="plotly" />
+            <item index="63" class="java.lang.String" itemvalue="incremental" />
+            <item index="64" class="java.lang.String" itemvalue="attrs" />
+            <item index="65" class="java.lang.String" itemvalue="Flask-Compress" />
+            <item index="66" class="java.lang.String" itemvalue="channels-redis" />
+            <item index="67" class="java.lang.String" itemvalue="hiredis" />
+            <item index="68" class="java.lang.String" itemvalue="autobahn" />
+            <item index="69" class="java.lang.String" itemvalue="aioredis" />
+            <item index="70" class="java.lang.String" itemvalue="channels" />
+            <item index="71" class="java.lang.String" itemvalue="dash-table" />
+            <item index="72" class="java.lang.String" itemvalue="future" />
+            <item index="73" class="java.lang.String" itemvalue="retrying" />
+            <item index="74" class="java.lang.String" itemvalue="django-redis" />
+            <item index="75" class="java.lang.String" itemvalue="dash-core-components" />
+            <item index="76" class="java.lang.String" itemvalue="django-plotly-dash" />
+            <item index="77" class="java.lang.String" itemvalue="pytz" />
+            <item index="78" class="java.lang.String" itemvalue="dash" />
+            <item index="79" class="java.lang.String" itemvalue="msgpack" />
+            <item index="80" class="java.lang.String" itemvalue="idna" />
+            <item index="81" class="java.lang.String" itemvalue="Twisted" />
+            <item index="82" class="java.lang.String" itemvalue="alembic" />
+            <item index="83" class="java.lang.String" itemvalue="html5lib" />
+            <item index="84" class="java.lang.String" itemvalue="Flask-SSLify" />
+            <item index="85" class="java.lang.String" itemvalue="Flask-HTTPAuth" />
+            <item index="86" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="87" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="88" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="89" class="java.lang.String" itemvalue="python-editor" />
+            <item index="90" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="91" class="java.lang.String" itemvalue="Flask-Bootstrap" />
+            <item index="92" class="java.lang.String" itemvalue="dominate" />
+            <item index="93" class="java.lang.String" itemvalue="Flask-Moment" />
+            <item index="94" class="java.lang.String" itemvalue="Flask-PageDown" />
+            <item index="95" class="java.lang.String" itemvalue="Flask-Migrate" />
+            <item index="96" class="java.lang.String" itemvalue="bleach" />
+            <item index="97" class="java.lang.String" itemvalue="Mako" />
+            <item index="98" class="java.lang.String" itemvalue="visitor" />
+            <item index="99" class="java.lang.String" itemvalue="Markdown" />
+            <item index="100" class="java.lang.String" itemvalue="webencodings" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="selenium.common" />
+          <option value="django.contrib.auth.models" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
