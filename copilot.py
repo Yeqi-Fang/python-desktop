@@ -68,3 +68,6 @@ def get_a_simple_CNN_model():
 
     net = Net()
     return net
+
+
+# def main():
