@@ -1,0 +1,28 @@
+
+[program:flaskblog]
+directory=/home/fyq/Diagnosis-of-pneumoconiosis
+command=conda activate flaskProject && gunicorn -w 3 app:app
+user=fyq
+autostart=true
+autorestart=true
+stopasgroup=true
+killasgroup=true
+stderr_logfile=/var/log/flaskblog/flaskblog.err.log
+stdout_logfile=/var/log/flaskblog/flaskblog.out.log
+pneumonia
+
+
+cat /var/log/flaskblog/flaskblog.err.log
+
+
+postgresql://postgres:svHqasskZJprIQwL3HJA@containers-us-west-192.railway.app:7531/railway
+
+"E:\Vedio of software\数学\数学建模\清风视频和代码\1_正课\第5讲_第1部分_皮尔逊相关系数的计算以及数据的描述性统计.ev1"
+"E:\Vedio of software\数学\数学建模\清风数学建模视频系列windows电脑专用播放器.exe"
+
+PNEUMONIA
+
+
+
+
+pneumonia
