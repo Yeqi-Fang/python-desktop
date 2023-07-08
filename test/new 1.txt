@@ -1,0 +1,10 @@
+docker run --name fyq-postgres -p 5432:5432 -e POSTGRES_PASSWORD=testing123 -d postgres
+source=\\wsl$\docker-desktop-data\data\docker\volumes\flask_mysql,target=/var/lib/mysql
+docker run --name mysql-wvol -p 3306:3306 -e MYSQL_ROOT_PASSWORD=testing123 -d --mount source=flask_mysql,target=\\wsl$\docker-desktop-data\data\docker\volumes mysql
+docker run --name mysql-wvol3 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=testing123 -d --mount source=\\wsl$\docker-desktop-data\data\docker\volumes\flask_mysql,target=/var/lib/mysql mysql
+docker run --name mysql-wvol4 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=testing123 -d --mount source=flask_mysql,target=/var/lib/mysql mysql
+docker run --name flask-test1 -d -p 5000:5000 flask_test
+
+mysql+pymysql://root:testing123@mysql/test_sql
+
+docker tag hello-docker fangyeqi/hello-docker:hello-docker
