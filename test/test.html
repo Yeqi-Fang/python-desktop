@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.js"></script>
+</head>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // var echarts = require('echarts');
+
+        var chartDom = document.getElementById('main');
+        var myChart = echarts.init(chartDom);
+        var option;
+
+        option = {
+            series: [
+                {
+                    type: 'gauge',
+                    axisLine: {
+                        lineStyle: {
+                            width: 30,
+                            color: [
+                                [0.3, '#67e0e3'],
+                                [0.7, '#37a2da'],
+                                [1, '#fd666d']
+                            ]
+                        }
+                    },
+                    pointer: {
+                        itemStyle: {
+                            color: 'auto'
+                        }
+                    },
+                    axisTick: {
+                        distance: -30,
+                        length: 8,
+                        lineStyle: {
+                            color: '#fff',
+                            width: 2
+                        }
+                    },
+                    splitLine: {
+                        distance: -30,
+                        length: 30,
+                        lineStyle: {
+                            color: '#fff',
+                            width: 4
+                        }
+                    },
+                    axisLabel: {
+                        color: 'auto',
+                        fontSize: 20,
+                        distance: 40,
+                        // rotate: 'tangential',
+                        formatter: function (value) {
+                            if (value === 20) {
+                                return '低风险';
+                            } else if (value === 50) {
+                                return '中风险';
+                            } else if (value === 80) {
+                                return '高风险';
+                            } 
+                            return '';
+                        }
+                    },
+                    // axisLabel:[
+                    //     '1',
+                    //     '1',
+                    //     '1'
+                    // ],
+                    detail: {
+                        valueAnimation: true,
+                        formatter: '高风险',
+                        color: 'auto'
+                    },
+                    data: [
+                        {
+                            value: 90
+                        }
+                    ]
+                }
+            ]
+        };
+        // setInterval(function () {
+        //     myChart.setOption({
+        //         series: [
+        //             {
+        //                 data: [
+        //                     {
+        //                         value: 20
+        //                     }
+        //                 ]
+        //             }
+        //         ]
+        //     });
+        // }, 2000);
+
+        option && myChart.setOption(option);
+
+
+    </script>
+</body>
+
+</html>
